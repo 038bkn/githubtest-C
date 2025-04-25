@@ -8,8 +8,7 @@
 
 1. このリポジトリをクローンします。
    ```bash
-   git clone https://github.com/yourusername/express-learning.git
-   cd express-learning
+   git clone【このリポジトリのURL】
 
 2. 必要な依存関係をインストールします。
     ```bash
