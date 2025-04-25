@@ -21,7 +21,7 @@
     const port = 3000;
 
     app.get('/', (req, res) => {
-        res.send('Hello, Codespaces!');
+        res.send('Hello, World!');
     });
 
     app.listen(port, () => {
@@ -29,8 +29,8 @@
     });
 
 
-3. サーバーを起動します。
+5. サーバーを起動します。
     ```bash
     node app.js
 
-4.　ブラウザで http://localhost:3000 にアクセスして、「Hello, World!」が表示されることを確認します。
+5.　ブラウザで http://localhost:3000 にアクセスして、「Hello, World!」が表示されることを確認します。
