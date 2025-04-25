@@ -12,7 +12,22 @@
 
 2. 必要な依存関係をインストールします。
     ```bash
-    npm install
+    npm install express
+
+3. app.jsファイルを作成する。
+　　```javascript
+    const express = require('express');
+    const app = express();
+    const port = 3000;
+
+    app.get('/', (req, res) => {
+        res.send('Hello, Codespaces!');
+    });
+
+    app.listen(port, () => {
+        console.log(`Server is running at http://localhost:${port}`);
+    });
+
 
 3. サーバーを起動します。
     ```bash
